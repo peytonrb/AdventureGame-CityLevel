@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MovementLevel",
+			"Path": "C:\\Users\\peyto\\OneDrive\\Desktop\\University of Central Florida\\Junior\\Spring\\Level Design\\MovementLevel\\AdventureGame-CityLevel\\MovementLevel\\Source\\MovementLevel.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MovementLevelEditor",
+			"Path": "C:\\Users\\peyto\\OneDrive\\Desktop\\University of Central Florida\\Junior\\Spring\\Level Design\\MovementLevel\\AdventureGame-CityLevel\\MovementLevel\\Source\\MovementLevelEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
