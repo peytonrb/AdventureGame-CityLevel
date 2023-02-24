@@ -140,6 +140,7 @@ void AMovementLevelCharacter::SetupPlayerInputComponent(class UInputComponent* P
 
 void AMovementLevelCharacter::OnFire()
 {
+	/*
 	// try and fire a projectile
 	if (ProjectileClass != nullptr)
 	{
@@ -184,6 +185,7 @@ void AMovementLevelCharacter::OnFire()
 			AnimInstance->Montage_Play(FireAnimation, 1.f);
 		}
 	}
+	*/
 }
 
 void AMovementLevelCharacter::OnResetVR()
@@ -295,6 +297,6 @@ bool AMovementLevelCharacter::EnableTouchscreenMovement(class UInputComponent* P
 		//PlayerInputComponent->BindTouch(EInputEvent::IE_Repeat, this, &AMovementLevelCharacter::TouchUpdate);
 		return true;
 	}
-	
+
 	return false;
 }
